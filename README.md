@@ -21,3 +21,8 @@ Username: Roshan22EEE<br>
 Rollno:20ee022<br>
 Email:roshan.b2020eee@sece.ac.in
 
+username:yaswanth durga reddy 
+roll num:20cs031
+reg num:722820104031
+email:goluguriyaswanthdurga,n2020aids@sece.ac.in 
+
