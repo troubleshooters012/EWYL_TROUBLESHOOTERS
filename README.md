@@ -8,16 +8,16 @@ initial stage<br>
 Username: Roshan22EEE<br>
 
 username : Haridharishini.E<br>
-email id:haridharishini.t2020eee@sece.ac.in
-roll no:20EE005
-Group rep
+email id:haridharishini.t2020eee@sece.ac.in<br>
+roll no:20EE005<br>
+Group rep<br>
 
-Dharun prakash.k
+Dharun prakash.k<br>
 
-ECE 
+ECE<br> 
 
 initial stage<br>
 Username: Roshan22EEE<br>
-Rollno:20ee022
+Rollno:20ee022<br>
 Email:roshan.b2020eee@sece.ac.in
 
