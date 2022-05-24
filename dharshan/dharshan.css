@@ -1,0 +1,37 @@
+*{
+    margin: 0px 0px 0px 0px;
+}
+h1{
+    margin-left: 500px;
+    background-color: red;
+    color: white;
+    width: 265px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#programmer{
+    margin-top: -100px;
+    height: 600px;
+    width: 600px;
+    padding: 20px;
+    background-color: red;
+}
+.first{
+    margin-top: 100px;
+    margin-left: 700px;
+    font-size: 20px;
+    width: 700px;
+    padding: 20px;
+    background-color: darkseagreen;
+    color:rgb(245, 6, 6)
+}
+.second{
+    margin-top: -550px;
+    margin-left: 700px;
+    font-size: 20px;
+    width: 700px;
+    height: 90px;
+    padding: 20px;
+    background-color: hotpink;
+    color: darkblue;
+}
