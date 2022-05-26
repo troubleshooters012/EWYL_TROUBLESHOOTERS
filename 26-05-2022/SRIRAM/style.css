@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+
+    background-color: aqua;
+    height: 200px;
+    width: 400px;
+    margin-top: 300px;
+    margin-left: 35%;
+    
+}
+.first li {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    list-style: none;
+    border-radius: 5px;
+}
+.first li input{
+    padding: 10px;
+}
+.first li input:hover{
+    background-color: bisque;
+}
