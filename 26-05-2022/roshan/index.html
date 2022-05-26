@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Log in page</title>
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css" />
     <script src="index.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <h1>WELCOME TO LOG IN PAGE</h1>
-    <div  class="first">
-        <form>
-        Usernname: <input type="text" id="username" placeholder="Email  or username">
-        Password: <input type="text" id="password" placeholder="*********">
-        <input class="second" type="SUBMIT" onclick="getValue()">
-    </form>
-    <span id="js"></span>
-
-
+    <div class="first">
+      <form>
+        Usernname:
+        <input
+          class="e"
+          type="text"
+          id="username"
+          placeholder="Email  or username"
+        /><br />
+        Password:
+        <input
+          class="h"
+          type="text"
+          id="password"
+          placeholder="*********"
+        /><br />
+        <input class="second" type="SUBMIT" onclick="getValue()" /><br />
+        Forgot Password:<input class="d" type="radio" onclick="getValue2()" /><br />
+        Reset Password:<input class="d" type="radio" onclick="getValue3()" />
+      </form>
+      <span id="js"></span>
     </div>
-    
-</body>
+  </body>
 </html>
