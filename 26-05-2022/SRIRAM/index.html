@@ -5,13 +5,38 @@
         <script src="index.js"></script>
     </head>
     <body>
+        <h1>Students Detail Form</h1>
         <div class="first">
+            
             <ul>
-                <li><input type="text" placeholder="Username" id="User_name"></li>
-                <li><input type="password" placeholder="password" id="pwd"></li>
+                <li><p>First-Name    : <input type="text" placeholder="firstname" id="FirstName"></p></li>
+                <li><p>Last-Name     : <input type="text" placeholder="lastname" id="LastName"></p></li>
+                <li><p>Date-of-Birth : <input type="date" placeholder="date-of-birth" id="DOB"></p></li>
+                <li><p>E-mail Id : <input type="email" placeholder="Email" id="Email"></p></li>
+                <li><p>Phone-Number : <input type="text" placeholder="Phone_number" id="PhoneNumber"></p></li>
+                <li>
+                    <ul class="gender" id="Gender">
+                        <p >Gender : 
+                            <li><input type="radio" id="male" name="gender" value="male">
+                            <label for="html">MALE</label></li>
+                            <li><input type="radio" id="female"  name="gender" value="female">
+                            <label for="css">FEMALE</label></li>
+                            <li><input type="radio" id="others" name="gender" value="others">
+                            <label for="javascript">OTHERS</label></li>
+                        </p>
+                    </ul>
+                </li>
                 <li><input type="submit" onclick="getValues()" id="getting-values"></li>
             </ul>
             <br>
+        </div>
+        <div class="second">
+            <p>FIRST NAME : <span class="sam" id="sone"></span><br></p>
+            <p>LAST NAME : <span class="sam" id="stwo"></span></p>
+            <p>DATE OF BIRTH : <span class="sam" id="sthree"></span></p>
+            <p>EMAIL ID : <span class="sam" id="sfour"></span></p>
+            <p>PHONE NUMBER : <span class="sam" id="sfive"></span></p>
+            <p>GENDER : <span class="sam" id="ssix"></span></p>
         </div>
     </body>
 </html>
