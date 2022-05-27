@@ -1,37 +1,41 @@
-.h1{
-    top: 20%;
-    font-style: initial;
-}
-.first{
-    display: flex;
-    margin-left: 40%;
-}
-.h{
-    width: 80%;
-    height: 10%;
-}
-.e{
-    width: 80%;
-    height: 10%;
 
+*
+{
+    margin: 0%;
+    padding: 0%;
+    background-color: lightblue;
 }
-.d{
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-.second:hover{
-    color: rgba(244, 94, 7, 0.76);
+.head h1.a{
+    margin-left: 40%;
+    width: 30%;
+    color: red;
     cursor: pointer;
     
-
 }
-.second{
-    color: black;
-    background-color:lightgrey;
-    cursor: pointer;
-    margin-left: 30%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-
+.head h1.a:hover{
+    background-color: yellow;
+}
+.head .b{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.head .c{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.head .d{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.head .e{
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.head .f{
+    margin-left: 40%;
+    margin-top: 3%;
+}    
+.head .g{
+    margin-left: 40%;
+    margin-top: 3%;
 }

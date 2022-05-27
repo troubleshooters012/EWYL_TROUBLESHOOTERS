@@ -4,33 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Log in page</title>
+    <title>student page</title>
     <link rel="stylesheet" href="css/index.css" />
     <script src="index.js"></script>
   </head>
   <body>
-    <h1>WELCOME TO LOG IN PAGE</h1>
-    <div class="first">
-      <form>
-        Usernname:
-        <input
-          class="e"
-          type="text"
-          id="username"
-          placeholder="Email  or username"
-        /><br />
-        Password:
-        <input
-          class="h"
-          type="text"
-          id="password"
-          placeholder="*********"
-        /><br />
-        <input class="second" type="SUBMIT" onclick="getValue()" /><br />
-        Forgot Password:<input class="d" type="radio" onclick="getValue2()" /><br />
-        Reset Password:<input class="d" type="radio" onclick="getValue3()" />
-      </form>
-      <span id="js"></span>
+    
+    <div class="head">
+      <h1 class="a">WELCOME TO MY PAGE</h1>
+
+      <div class="b">USERNAME :
+      <input  type="text" id="username" placeholder="enter your name" />
+      <br /></div>
+
+      <div class="c">PASSWORD :
+      <input type="text" id="password" placeholder="********" />
+      <br /></div>
+      <div class="d">
+        EMAIL ID:
+      <input type="text" id="email" placeholder="enter your email" /><br /></div>
+
+     <div class="e">
+        MOBILENUMBER :
+      <input
+      
+        type="text"
+        id="mobilenumber"
+        placeholder="enter your mobile number"
+      /><br /></div>
+      <div class="f">
+      GENDER: MALE<input type="radio" name="Gender" value="Male" /> FEMALE<input
+        type="radio"
+        name-="Gender"
+        value="Female"
+      /><br /></div>
+      <input class="g" type="submit" onclick="getValue()" />
     </div>
+    
+    <span  id="form"></span><br>
+    <span id="go"></span><br>
+    <span id="row"></span><br>
+    <span id="column"></span><br>
+    <span id="vertical"></span><br>
   </body>
 </html>
