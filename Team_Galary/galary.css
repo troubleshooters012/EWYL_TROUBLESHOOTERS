@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to bottom,#acb6e5,#86fde8);
+}
+
+
+.first_row{
+    margin-top: 50px;
+    height: 500px;
+    background-color: lightgray;
+    width: 1300px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.header{
+    height: 300px;
+    width: 400px;
+    margin-top: 125px;
+    margin-left: 200px;
+    
+}
+.header p{
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom,#ebddac,#f6a1a1);
+}
+.sriram{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: -400px;
+    margin-left: 800px;
+    background-image: linear-gradient(to bottom,#ebddac,#f6a1a1);
+}
+.imgsriram{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 125px;
+}
+.sriram p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.sriram a{
+    font-size: 15px;
+    text-decoration: none;
+}
+.second_row{
+    height: 500px;
+    background-color: lightgray;
+    margin-top: 50px;
+    width: 1300px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.second_row p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.second_row a{
+    
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.dharshan{
+    background-image: linear-gradient(to bottom,#ebddac,#f6a1a1);
+    height: 400px;
+    width: 350px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.imgdharshan{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.dharun{
+    background-image: linear-gradient(to bottom,#ebddac,#f6a1a1);
+    height: 400px;
+    width: 350px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: -410px;
+    margin-left: 475px;
+}
+.imgdharun{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.yaswanth{
+    background-image: linear-gradient(to bottom,#ebddac,#f6a1a1);
+    height: 400px;
+    width: 350px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: -410px;
+    margin-left: 900px;
+}
+.imgyaswanth{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.third_row{
+    margin-bottom: 50px;
+    height: 500px;
+    margin-top: 50px;
+    background-color: lightgrey;
+    width: 1300px;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.third_row p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.third_row a{
+    font-size: 15px;
+    text-decoration: none;
+}
+.roshan{
+    background-image: linear-gradient(to bottom,#ebddac,#f6a1a1);
+    height: 400px;
+    width: 350px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.imgroshan{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.ragavi{
+    background-image: linear-gradient(to bottom,#ebddac,#f6a1a1);
+    height: 400px;
+    width: 350px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: -410px;
+    margin-left: 475px;
+}
+.imgragavi{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.haridharshini{
+    background-image: linear-gradient(to bottom,#ebddac,#f6a1a1);
+    height: 400px;
+    width: 350px;
+    border: 5px solid black;
+    border-radius: 20px; 
+    margin-top: -410px;
+    margin-left: 900px;
+}
+.imgharidharshini{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+hr{
+    width: 90%;
+    margin: 10px auto;
+}
+.rulersri{
+    width: 90%;
+    margin: 10px auto;
+}
