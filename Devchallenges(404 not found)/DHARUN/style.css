@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+main{
+    margin-top: 5%;
+}
+.content-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 600px;
+    width: 1400px;
+    position: relative;
+    max-width: 95%;
+
+}
+
+.imagescarecrow{
+    left: 2%;
+    position: absolute; 
+}
+
+.imagescarecrow img{
+    height: 100%;
+    width: 70%;
+}
+
+.content{
+    padding: 12px;
+    width: 30%;
+    top: 20%;
+    right: 4%;
+    position: absolute;
+}
+.content h2{
+    font-size: 50px;
+ }
+
+.content p{
+    font-size: 20px;
+}
+
+.content button{
+    border: none;
+    background-color: #ed1111;
+    padding: 20px;
+    text-transform:uppercase;
+    color: rgb(14, 13, 13);
+    border-radius: 3px;
+}
+.a1{
+    padding: 12px;
+    width: 40%;
+    bottom: 20%;
+    right: 2%;
+    position: absolute;
+    color: rgb(15, 16, 15);
+}
+
+@media (min-width:350px) and (max-width:500px){
+    .imagescarecrow{
+        width: 300px;
+    }
+}
+    
