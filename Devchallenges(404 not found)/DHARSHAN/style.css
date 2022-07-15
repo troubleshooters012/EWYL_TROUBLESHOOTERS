@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.source{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+    margin-top: 200px;
+}
+img {
+    height: 500px;
+}
+@media screen and  (max-width: 700px) and (min-width: 480px){
+
+    img{
+        height: 100px;
+    }
+    .source{
+        display: flex;
+        align-items: center;
+        font-size: smaller;
+    }
+    
+}
+.container{
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+}
