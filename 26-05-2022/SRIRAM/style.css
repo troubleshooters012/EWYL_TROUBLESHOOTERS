@@ -2,40 +2,21 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: linear-gradient(to bottom, rgb(0, 102, 255), rgb(16, 239, 195));
-}
-h1{
-    padding: 5px;
-    width: 293.3px;
-    margin-top: 10px;
-    margin-left: 600px;
-    border: 5px solid rgb(240, 179, 9);
+div.first{
+    margin-top: 200px;
+    margin-left: 500px;
+    border: 4px solid #098765;
+    width: 300px;
     border-radius: 20px;
+    padding: 20px;
 }
-.first{
-    border: 2px solid black;
-    height: 700px;
-    width: 1000px;
-    margin-top: 50px;
-    margin-left: 300px;
-    
-}
-.first li {
-    margin-top: 20px;
+ul{
     list-style: none;
-    border-radius: 5px;
 }
-.first li input{
-    padding: 10px;
-}
-.first li input:hover{
-    background-color: bisque;
-}
-.first .gender li{
-    list-style: none;
-    display: inline-block;
-    align-items: center;
-    padding: 0 20px;
-    margin-left: 50px;
+
+li input{
+    margin-left: 100px;
+    margin-top: -25px;
+    padding: 5px;
+    margin-bottom: 30px;
 }

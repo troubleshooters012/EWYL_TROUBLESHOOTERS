@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to bottom, rgb(0, 102, 255), rgb(16, 239, 195));
+}
+h1{
+    padding: 5px;
+    width: 293.3px;
+    margin-top: 10px;
+    margin-left: 600px;
+    border: 5px solid rgb(240, 179, 9);
+    border-radius: 20px;
+}
+.first{
+    border: 2px solid black;
+    height: 700px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 300px;
+    
+}
+.first li {
+    margin-top: 20px;
+    list-style: none;
+    border-radius: 5px;
+}
+.first li input{
+    padding: 10px;
+}
+.first li input:hover{
+    background-color: bisque;
+}
+.first .gender li{
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    padding: 0 20px;
+    margin-left: 50px;
+}

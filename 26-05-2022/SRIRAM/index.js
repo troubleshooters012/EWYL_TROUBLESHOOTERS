@@ -1,16 +1,45 @@
 function getValues(){
-    fname = document.getElementById("FirstName").value;
+    var fname = document.getElementById("FirstName").value;
     lname = document.getElementById("LastName").value;
     dob = document.getElementById("DOB").value;
     email = document.getElementById("Email").value;
     phno = document.getElementById("PhoneNumber").value;
-    gender = document.getElementsByName ("gender":checked).value;
-    console.log([fname,lname,dob,email,phno,gender]);
-    
-    document.getElementById("sone").innerHTML=fname;
-    document.getElementById("stwo").innerHTML=lname;
-    document.getElementById("sthree").innerHTML=dob;
-    document.getElementById("sfour").innerHTML=email;
-    document.getElementById("sfive").innerHTML=phno;
-    document.getElementById("ssix").innerHTML=gender;
+    console.log({"fname":fname,"lname":lname,"date":dob,"mail":email,"num":phno});
+    var studentDetails=[
+        {
+            fname : "sriram",
+            lname : "D B",
+            dob : 17-09-2002,
+            email : "sriram@gmail.com",
+            phno : 9080373479
+        },
+        {
+            fname : "dharshan",
+            lname : "P M",
+            dob : 17-09-2002,
+            email : "dharshan@gmail.com",
+            phno : 123456789
+        },
+        {
+            fname : "hemanth",
+            lname : "D",
+            dob : 17-09-2002,
+            email : "hemanth@gmail.com",
+            phno : 987654321
+        },
+        {
+            fname : "parthipan",
+            lname : "M",
+            dob : 17-09-2002,
+            email : "parthipan@gmail.com",
+            phno : 789456123
+        }
+    ]
+    studentDetails.forEach(function(obj){
+        if(obj.firstname == fname){
+            document.getElementById("sone").innerHTML= "Log in ";
+
+        }
+    }
+    );
 }
